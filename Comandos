@@ -1,0 +1,256 @@
+__Actor__:
+<Initial Level: x>				//Impone el nivel inicial
+<Max Level: x>					//Impone el nivel maximo
+<ATB Start: +x>					//Aumenta la barra de velocidad de ataque en un x valor al comienzo de la batalla
+<ATB Start: +x%>				//Aumenta la barra de velocidad de ataque en un x porcentaje al comienzo de la batalla
+<ATB Turn: +x>					//Aumenta la barra de velocidad de ataque en un x valor todos los turnos
+<ATB Turn: +x%>					//Aumenta la barra de velocidad de ataque en un x porcentaje todos los turnos
+<Bypass Damage Cap>				//Anula el cap de daño maximo utilizado
+<Damage Cap: x>					//Impone un x valor maximo para el daño realizado
+<Heal Cap: x>					//Impone un x valor maximo para el daño curado
+<Physical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura fisica de este actor
+<Physical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura fisica de este actor
+<Magical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura magica de este actor
+<Magical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura magica de este actor
+<Physical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura fisica al objetivo del actor
+<Physical Armor Penetration: x%>//Permite la reduccion en un porcentaje x de armadura fisica al objetivo del actor
+<Magical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura magica al objetivo del actor
+<Magical Armor Penetration: x%>	//Permite la reduccion en un porcentaje x de armadura magica al objetivo del actor
+<Critical Multiplier: +-x%>		//Aumenta o disminuye un x porcentaje para la multiplicacion del daño critico
+<Physical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Magical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Skill x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de una determinada skill x(numero o nombre)
+<SType x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de todos los tipos x(numero o nombre) de skills
+<Global Cooldown Duration: x%>	//Cambia el dooldown en un porcentaje x, de todas las skills
+<Skill name Cooldown: +-y>		//Aumenta o disminuye en un valor y(turnos) el cooldown de una determinada skill name(nombre)
+<Instant Skill: x, x, x>		//Permite a una determinada skill x(nombre o numero) ser instantanea
+<Instant Item: x, x, x>			//Permite a un determinado item x(nombre o numero) ser instantaneo
+<Passive State: x, x, x>		//Permite que el item otorgue un x(numero) estado
+<Starting JP: x>				//Impone un valor x(numero) de job points para el comienzo
+<JP Rate: x%>					//Impone un porcentaje x(numero) de aumento de job points ganados
+
+
+__Class__:
+<ATB Start: +x>					//Aumenta la barra de velocidad de ataque en un x valor al comienzo de la batalla
+<ATB Start: +x%>				//Aumenta la barra de velocidad de ataque en un x porcentaje al comienzo de la batalla
+<ATB Turn: +x>					//Aumenta la barra de velocidad de ataque en un x valor todos los turnos
+<ATB Turn: +x%>					//Aumenta la barra de velocidad de ataque en un x porcentaje todos los turnos
+<Bypass Damage Cap>				//Anula el cap de daño maximo utilizado
+<Damage Cap: x>					//Impone un x valor maximo para el daño realizado
+<Heal Cap: x>					//Impone un x valor maximo para el daño curado
+<Physical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura fisica de este actor
+<Physical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura fisica de este actor
+<Magical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura magica de este actor
+<Magical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura magica de este actor
+<Physical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura fisica al objetivo del actor
+<Physical Armor Penetration: x%>//Permite la reduccion en un porcentaje x de armadura fisica al objetivo del actor
+<Magical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura magica al objetivo del actor
+<Magical Armor Penetration: x%>	//Permite la reduccion en un porcentaje x de armadura magica al objetivo del actor
+<Critical Multiplier: +-x%>		//Aumenta o disminuye un x porcentaje para la multiplicacion del daño critico
+<Physical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Magical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Swap Gauge x: y>				//Reemplaza un indicador x(1,2,3) con un y("HP","MP","TP"). Para no mostrar nada, utilizar como y("Null")
+<Skill x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de una determinada skill x(numero o nombre)
+<SType x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de todos los tipos x(numero o nombre) de skills
+<Global Cooldown Duration: x%>	//Cambia el dooldown en un porcentaje x, de todas las skills
+<Skill name Cooldown: +-y>		//Aumenta o disminuye en un valor y(turnos) el cooldown de una determinada skill name(nombre)
+<Instant Skill: x, x, x>		//Permite a una determinada skill x(nombre o numero) ser instantanea
+<Instant Item: x, x, x>			//Permite a un determinado item x(nombre o numero) ser instantaneo
+<Learn Skill: x, x, x>			//Permite aprender x(numero) skill
+<Equip Slot: x, x, x, x, x, x>	//Impone a cantidad de slots de equipo a poder ser utilizado, repetir un mismo numero en x implica poder utilizar mas de un mismo tipo de equipamento. X(tipo)
+<Passive State: x, x, x>		//Permite que el item otorgue un x(numero) estado
+<JP Rate: x%>					//Impone un x porcentaje mayor de job points
+
+
+__Skills__:
+<Learn at Level: x>				//Impone el nivel necesario de aprendizaje
+<speed: +-x>					//Aumenta la velocidad a un x valor
+<Cast Animation: x>				//Impone una animacion especifica x(numero) para el casteo de habilidades
+<ATB Speed: x%>					//Cambia la barra de velocidad de ataque a un x porcentaje
+<ATB Charge: x%>				//Cambia la barra de carga del ataque utilizado a un x porcentaje
+<ATB Gauge: x%>					//Cambia ambas barras speed y charge a un x porcentaje
+<ATB Speed: +-x>				//Aumenta o disminuye la barra de velocidad de ataque a un x valor
+<ATB Charge: +-x>				//Aumenta o disminuye la barra de carga del ataque utilizado en un x valor
+<ATB Gauge: +-x>				//Aumenta o disminuye ambas barras speed y charge a un x valor
+<ATB Speed: +-x%>				//Aumenta o disminuye la barra de velocidad de ataque a un x porcentaje
+<ATB Charge: +-x%>				//Aumenta o disminuye la barra de carga del ataque utilizado a un x porcentaje
+<ATB Gauge: +-x%>				//Aumenta o disminuye ambas barras speed y charge a un x porcentaje
+<After ATB: x>					//Aumenta la barra de velocidad de ataque a un x valor, luego del uso de un skill
+<After ATB: x%>					//Aumenta la barra de velocidad de ataque a un x porcentaje, luego del uso de un skill
+<ATB Iterrupt>					//Iterrumpe totalmente la barra de velocidad de ataque del objetivo, luego de utilizar un skill
+<ATB Iterrupt: x%>				//Interrumpe totalmente la barra de velocidad de ataque del objetivo en un x porcentaje, luego de utilizar un skill
+<Bypass Damage Cap>				//Anula el cap de daño maximo utilizado
+<Armor Reduction: x>			//Reduce la armadura del actor en un x valor
+<Armor Reduction: x%>			//Reduce la armadura del actor en un x porcentaje
+<Armor Penetration: x%>			//Reduce la armadura del objetivo del actor en un x porcentaje
+<Armor Penetration: x>			//Reduce la armadura del objetivo del actor en un x valor
+<Bypass Armor Scaling>			//Omite la formula para calcular la reduccion de daño
+<Critical Rate: x%>				//Impone un x porcentaje de posibilidad de critico
+<Critical Multiplier: x.y>		//Impone un x valor flotante para la multiplicacion de daño critico
+<HP Cost: x>					//Impone un x valor de costo de vida para un skill
+<HP Cost: x%>					//Impone un x porcentaje de costo de vida maxima para un skill
+<MP Cost: x>					//Impone un x valor de costo de mana para un skill
+<MP Cost: x%>					//Impone un x porcentaje de costo de mana maxima para un skill
+<TP Cost: x>					//Impone un x valor de costo de TP para un skill
+<TP Cost: x%>					//Impone un x porcentaje de costo de TP maxima para un skill
+<Hide if Learned Skill: x>		//Oculta y desactiva un skill, si ya se aprendio una determinada skill x(numero) 
+<Cooldown: x>					//Impone un valor x de turnos para el cooldown
+<Skill name Cooldown: x>		//Impone un valor x de turnos para el cooldown de una skill determinada "name"(utilizar nombre de skill, o numero)
+<Global Cooldown: x>			//Impone un valor x de turnos para el cooldown de todas las skills, luego de ser utilizada
+<Bypass Cooldown>				//Permine a la skill no poseer cooldown
+<Skill name Cooldown: +-x>		//Aumenta o disminuye en un valor x(turnos) el cooldown de una determinada skill name(nombre de skill)
+<SType x Cooldown: +-y>			//Aumenta o disminuye en un valor y(turnos) el cooldown de todos los tipos de skill x(numero) del objetivo de la habilidad
+<Global Cooldown: +-x>			//Aumenta o disminuye en un valor x el cooldown de todas las skills del objetivo de la habilidad
+<Instant>						//Permite ser instantaneo, es decir no consume el turno
+<Learn Cost: x Gold>			//Impone un valor x(numero) de oro como costo de aprendizaje
+<Learn Cost: x JP>				//Impone un valor x(numero) de job points como costo de aprendizaje
+<Learn Require Level: x>		//Impone un valor x(nivel) de personaje para poder ser aprendida
+<Learn Require Skill: x, x, x>	//Impone una o varias skills x(numero) aprendidas, para poder aprenderla
+<Passive State: x, x, x>		//Permite que el item otorgue un x(numero) estado
+<JP Gain: x>					//Otorga x valor de job points
+
+
+__State__:
+<Action Start: x>				//Impone la duracion del estado en turnos
+<Action Start: x to y>			//Impone la duracion del estado entre x, y turnos. Desaparece aleatoriamente entre x, y turnos
+<ATB Start: +x>					//Aumenta la barra de velocidad de ataque en un x valor al comienzo de la batalla
+<ATB Start: +x%>				//Aumenta la barra de velocidad de ataque en un x porcentaje al comienzo de la batalla
+<ATB Turn: +x>					//Aumenta la barra de velocidad de ataque en un x valor todos los turnos
+<ATB Turn: +x%>					//Aumenta la barra de velocidad de ataque en un x porcentaje todos los turnos
+<Bypass Damage Cap>				//Anula el cap de daño maximo utilizado
+<Damage Cap: x>					//Impone un x valor maximo para el daño realizado
+<Heal Cap: x>					//Impone un x valor maximo para el daño curado
+<Physical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura fisica de este actor
+<Physical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura fisica de este actor
+<Magical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura magica de este actor
+<Magical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura magica de este actor
+<Physical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura fisica al objetivo del actor
+<Physical Armor Penetration: x%>//Permite la reduccion en un porcentaje x de armadura fisica al objetivo del actor
+<Magical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura magica al objetivo del actor
+<Magical Armor Penetration: x%>	//Permite la reduccion en un porcentaje x de armadura magica al objetivo del actor
+<Critical Multiplier: +-x%>		//Aumenta o disminuye un x porcentaje para la multiplicacion del daño critico
+<Physical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Magical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Skill x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de una determinada skill x(numero o nombre)
+<SType x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de todos los tipos x(numero o nombre) de skills
+<Global Cooldown Duration: x%>	//Cambia el dooldown en un porcentaje x, de todas las skills
+<Skill name Cooldown: +-y>		//Aumenta o disminuye en un valor y(turnos) el cooldown de una determinada skill name(nombre)
+<Instant Skill: x, x, x>		//Permite a una determinada skill x(nombre o numero) ser instantanea
+<Instant Item: x, x, x>			//Permite a un determinado item x(nombre o numero) ser instantaneo
+<Passive Condition: HP Above x%>//Impone la condicion de un valor x(numero) en porcentaje de HP para activarse
+<Passive Condition: HP Below x%>//Impone la condicion de un valor x(numero) en porcentaje de HP para activarse
+<Passive Condition: MP Above x%>//Impone la condicion de un valor x(numero) en porcentaje de MP para activarse
+<Passive Condition: MP Below x%>//Impone la condicion de un valor x(numero) en porcentaje de MP para activarse
+<Passive Condition: Variable x Above y>//Impone la condicion de un valor y(numero) de una variable x(cualquier cosa) para activarse
+<Passive Condition: Variable x Below y>//Impone la condicion de un valor y(numero) de una variable x(cualquier cosa) para activarse
+<JP Rate: x%>					//Impone un x porcentaje mayor de job points
+
+
+__Enemy__:
+<Gold: x>						//Impone un x valor de oro que otorga el oponente
+<stat: x>						//Reemplazar "stat" por: "hp","mp", "atk", "mat", "def", "mdf", "agi". Impone un stat determinado en un valor x. Ej: <hp: 80>
+<exp: x>						//Impone un x valor de experiencia que otorga el oponente
+<Attack Animation: x>			//Imppone una animacion especifica x(numero) para la realizacion de ataques
+<ATB Start: +x>					//Aumenta la barra de velocidad de ataque en un x valor al comienzo de la batalla
+<ATB Start: +x%>				//Aumenta la barra de velocidad de ataque en un x porcentaje al comienzo de la batalla
+<ATB Turn: +x>					//Aumenta la barra de velocidad de ataque en un x valor todos los turnos
+<ATB Turn: +x%>					//Aumenta la barra de velocidad de ataque en un x porcentaje todos los turnos
+<Bypass Damage Cap>				//Anula el cap de daño maximo utilizado
+<Damage Cap: x>					//Impone un x valor maximo para el daño realizado
+<Heal Cap: x>					//Impone un x valor maximo para el daño curado
+<Physical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura fisica de este actor
+<Physical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura fisica de este actor
+<Magical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura magica de este actor
+<Magical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura magica de este actor
+<Physical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura fisica al objetivo del actor
+<Physical Armor Penetration: x%>//Permite la reduccion en un porcentaje x de armadura fisica al objetivo del actor
+<Magical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura magica al objetivo del actor
+<Magical Armor Penetration: x%>	//Permite la reduccion en un porcentaje x de armadura magica al objetivo del actor
+<Critical Multiplier: +-x%>		//Aumenta o disminuye un x porcentaje para la multiplicacion del daño critico
+<Physical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Magical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Skill x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de una determinada skill x(numero o nombre)
+<SType x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de todos los tipos x(numero o nombre) de skills
+<Global Cooldown Duration: x%>	//Cambia el dooldown en un porcentaje x, de todas las skills
+<Skill name Cooldown: +-y>		//Aumenta o disminuye en un valor y(turnos) el cooldown de una determinada skill name(nombre)
+<Instant Skill: x, x, x>		//Permite a una determinada skill x(nombre o numero) ser instantanea
+<Instant Item: x, x, x>			//Permite a un determinado item x(nombre o numero) ser instantaneo
+<Passive State: x, x, x>		//Permite que el item otorgue un x(numero) estado
+<JP: x>							//Impone un valor x(numero) de job points otorgados al morir
+
+
+__Weapon,Armor__:
+<Price: x>						//Cambia el precio del objeto al valor x
+<Max Item: x>					//Cambia el numero de items maximos al valor x
+<stat: +-x>						//Reemplazar "stat" por: "hp","mp", "atk", "mat", "def", "mdf", "agi". Aumenta o disminuye un stat determinado en un valor x. Ej: <hp: +20>
+<Sprite Cannot Move>			//Impide que el actor se mueva
+<ATB Start: +x>					//Aumenta la barra de velocidad de ataque en un x valor al comienzo de la batalla
+<ATB Start: +x%>				//Aumenta la barra de velocidad de ataque en un x porcentaje al comienzo de la batalla
+<ATB Turn: +x>					//Aumenta la barra de velocidad de ataque en un x valor todos los turnos
+<ATB Turn: +x%>					//Aumenta la barra de velocidad de ataque en un x porcentaje todos los turnos
+<Bypass Damage Cap>				//Anula el cap de daño maximo utilizado
+<Damage Cap: x>					//Impone un x valor maximo para el daño realizado
+<Heal Cap: x>					//Impone un x valor maximo para el daño curado
+<Physical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura fisica de este actor
+<Physical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura fisica de este actor
+<Magical Armor Reduction: x>	//Permite la reduccion en un valor x de armadura magica de este actor
+<Magical Armor Reduction: x%>	//Permite la reduccion en un porcentaje x de armadura magica de este actor
+<Physical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura fisica al objetivo del actor
+<Physical Armor Penetration: x%>//Permite la reduccion en un porcentaje x de armadura fisica al objetivo del actor
+<Magical Armor Penetration: x>	//Permite la reduccion en un valor x de armadura magica al objetivo del actor
+<Magical Armor Penetration: x%>	//Permite la reduccion en un porcentaje x de armadura magica al objetivo del actor
+<Critical Multiplier: +-x%>		//Aumenta o disminuye un x porcentaje para la multiplicacion del daño critico
+<Physical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Magical Critical Rate: +-x%>	//Aumenta o disminuye un x porcentaje la posibilidad de critico
+<Random Variance: x>			//Varia el numero de stats del item en un x valor
+<Not Independent Item>			//Permite que el item junte stacks de si mismo
+<Passive State: x, x, x>		//Permite que el item otorgue un x(numero) estado
+<JP Rate: x%>					//Impone un x porcentaje mayor de job points
+<Skill x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de una determinada skill x(numero o nombre)
+<SType x Cooldown Duration: y%>	//Cambia el cooldown en un porcentaje y, de todos los tipos x(numero o nombre) de skills
+<Global Cooldown Duration: x%>	//Cambia el dooldown en un porcentaje x, de todas las skills
+<Skill name Cooldown: +-y>		//Aumenta o disminuye en un valor y(turnos) el cooldown de una determinada skill name(nombre)
+<Instant Skill: x, x, x>		//Permite a una determinada skill x(nombre o numero) ser instantanea
+<Instant Item: x, x, x>			//Permite a un determinado item x(nombre o numero) ser instantaneo
+
+
+__Item__:
+<Price: x>						//Cambia el precio del objeto al valor x
+<Max Item: x>					//Cambia el numero de items maximos al valor x
+<stat: +-x>						//Reemplazar "stat" por: "hp","mp", "atk", "mat", "def", "mdf", "agi".Aumenta o disminuye un stat determinado en un valor x. Ej: <hp: +20>
+<speed: +-x>					//Aumenta la velocidad en un x valor
+<ATB Speed: x%>					//Cambia la barra de velocidad de ataque a un x porcentaje
+<ATB Charge: x%>				//Cambia la barra de carga del ataque utilizado a un x porcentaje
+<ATB Gauge: x%>					//Cambia ambas barras speed y charge a un x porcentaje
+<ATB Speed: +-x>				//Aumenta o disminuye la barra de velocidad de ataque a un x valor
+<ATB Charge: +-x>				//Aumenta o disminuye la barra de carga del ataque utilizado en un x valor
+<ATB Gauge: +-x>				//Aumenta o disminuye ambas barras speed y charge a un x valor
+<ATB Speed: +-x%>				//Aumenta o disminuye la barra de velocidad de ataque a un x porcentaje
+<ATB Charge: +-x%>				//Aumenta o disminuye la barra de carga del ataque utilizado a un x porcentaje
+<ATB Gauge: +-x%>				//Aumenta o disminuye ambas barras speed y charge a un x porcentaje
+<After ATB: x>					//Aumenta la barra de velocidad de ataque a un x valor, luego del uso de un item
+<After ATB: x%>					//Aumenta la barra de velocidad de ataque a un x porcentaje, luego del uso de un item
+<ATB Iterrupt>					//Iterrumpe totalmente la barra de velocidad de ataque del objetivo, luego de utilizar un item
+<ATB Iterrupt: x%>				//Interrumpe totalmente la barra de velocidad de ataque del objetivo en un x porcentaje, luego de utilizar un item
+<Cannot ATB Iterrupt>			//No puede ser iterrumpido durante el uso del item
+<Bypass Damage Cap>				//Anula el cap de daño maximo utilizado
+<Armor Reduction: x>			//Reduce la armadura del actor en un x valor
+<Armor Reduction: x%>			//Reduce la armadura del actor en un x porcentaje
+<Armor Penetration: x%>			//Reduce la armadura del objetivo del actor en un x porcentaje
+<Armor Penetration: x>			//Reduce la armadura del objetivo del actor en un x valor
+<Bypass Armor Scaling>			//Omite la formula para calcular la reduccion de daño
+<Critical Rate: x%>				//Impone un x porcentaje de posibilidad de critico
+<Critical Multiplier: x.y>		//Impone un x valor flotante para la multiplicacion de daño critico
+<Random Variance: x>			//Varia el numero de stats del item en un x valor
+<Not Independent Item>			//Permite que el item junte stacks de si mismo
+<JP Gain: x>					//Otorga x valor de job points
+<Skill name Cooldown: +-x>		//Aumenta o disminuye en un valor x(turnos) el cooldown de una determinada skill name(nombre de skill)
+<SType x Cooldown: +-y>			//Aumenta o disminuye en un valor y(turnos) el cooldown de todos los tipos de skill x(numero) del objetivo de la habilidad
+<Global Cooldown: +-x>			//Aumenta o disminuye en un valor x el cooldown de todas las skills del objetivo de la habilidad
+<Instant>						//Permite ser instantaneo, es decir no consume el turno
+
+
+__Skills&ItemsDamageFormula__:
+<damage formula>				//"value" es la variable que define el valor de daño final
+value=200;						//"user" es utilizado para hacer referencia al actor. Ej: user.mat, user.level, user.atk
+</damage formula>				//"target" es utilizado para hacer referencia al objetivo. Ej: target.level, target.maxhp
