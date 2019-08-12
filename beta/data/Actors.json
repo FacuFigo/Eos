@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"battlerName":"Actor1_3","characterIndex":2,"characterName":"Actor1","classId":1,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"Actor1","traits":[{"code":51,"dataId":1,"value":1},{"code":51,"dataId":2,"value":1},{"code":51,"dataId":3,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Player Male","nickname":"player","note":"","profile":""},
-{"id":2,"battlerName":"Actor1_4","characterIndex":3,"characterName":"Actor1","classId":1,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Actor1","traits":[{"code":51,"dataId":2,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Player Female","nickname":"player","note":"","profile":""},
+{"id":1,"battlerName":"Actor1_3","characterIndex":2,"characterName":"Actor1","classId":1,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"Actor1","traits":[{"code":51,"dataId":1,"value":1},{"code":51,"dataId":2,"value":1},{"code":51,"dataId":3,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Player Male","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Actor1_4","characterIndex":3,"characterName":"Actor1","classId":1,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Actor1","traits":[{"code":51,"dataId":2,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Player Female","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
@@ -9,5 +9,5 @@ null,
 {"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":9,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":10,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+{"id":10,"battlerName":"Actor2_4","characterIndex":0,"characterName":"$BigMonster1","classId":15,"equips":[1,0,0,0,0],"faceIndex":5,"faceName":"Evil","traits":[],"initialLevel":1,"maxLevel":99,"name":"battle test","nickname":"","note":"","profile":""}
 ]
